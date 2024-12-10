@@ -10,7 +10,7 @@ if __name__ == '__main__':
     email = "ваш логин"
     password = "ваш пароль"
     chrome_options = Options()
-    chrome_options.add_experimental_option("detach", True)  # This keeps the browser open
+    chrome_options.add_experimental_option("detach", True)
     driver = webdriver.Chrome(options=chrome_options)
 
     driver.get('https://px6.me/user/proxy')
